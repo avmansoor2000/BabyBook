@@ -13,7 +13,10 @@ body {
   overflow-x: hidden;
   background-color: #e7e3da;
   color: #927463;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'American Typewriter', 'serif'; 
+  /* font-family: "Snell Roundhand", cursive; */
+  font-style: italic
+  /* font-weight: bolder; */
 }
 
 a {
@@ -28,7 +31,6 @@ a:hover {
 
 h1,
 h2,
-h3,
 h4,
 h5,
 h6 {
@@ -148,7 +150,7 @@ section {
   margin-top: 20px;
   /* border-radius: 50px; */
   cursor: pointer;
-  /* box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);  */
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.3); 
   border: 5px solid #fff;
 }
 .main-card img {
@@ -162,7 +164,7 @@ section {
   margin-top: 20px;
   /* border-radius: 50px; */
   cursor: pointer;
-  /* box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);  */
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.3); 
 }
 /* .card:hover {
   transform: translateY(-5px);
